@@ -19,7 +19,7 @@
 CREATE TABLE projects(id SERIAL PRIMARY KEY, name VARCHAR(50) NOT NULL, description TEXT);
 ```
 
-Я попробовал сгенерировать `sql` файл через `execute` нно результат такой же:
+Я попробовал сгенерировать `sql` файл через `execute` но результат такой же:
 
 ```sql
 -- Doctrine Migration File Generated on 2022-02-07 22:24:01
